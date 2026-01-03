@@ -3,7 +3,7 @@
 angular.module('utils.services', [])
 
 .service('dataService', function($http) {
-    var apiURL = "https://api.xmrpool.net";
+    var apiURL = "https://solopool.us";
 
     // delete $http.defaults.headers.common['X-Requested-With'];
     this.getData = function(url, callbackFunc, errCallback) {
